@@ -2,7 +2,7 @@ from django.urls import include, path
 from rest_framework import routers
 from . import views
 
-router = router.DefaultRouter()
+router = routers.DefaultRouter()
 router.register('vehicls', views.vehiclviewset)
 
 urlpatterns = [
